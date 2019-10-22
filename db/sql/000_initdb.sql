@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS sample_db;
+
+USE sample_db;
+
+ CREATE TABLE IF NOT EXISTS person (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    user_name VARCHAR(30) NOT NULL,
+    PRIMARY KEY(id)
+);
