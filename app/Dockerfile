@@ -11,7 +11,7 @@ ADD . /app
 RUN pip install -r requirements.txt
 
 # ポート80番をコンテナの外の世界でも利用可能に
-EXPOSE 80
+EXPOSE 1323
 
 # 環境変数の定義
 ENV NAME World
